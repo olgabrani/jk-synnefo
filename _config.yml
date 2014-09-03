@@ -3,7 +3,7 @@ title: Synnefo
 description: "Synnefo is open source cloud software used to create massively scalable IaaS clouds."
 keywords: "cloud software, cloud platform, commodity hardware, large scale, Ganeti, OpenStack, production quality, production ready, okeanos, IaaS" 
 baseurl: ""
-url: ""
+url: "https://www.synnefo.org"
 twitter_username: synnefosoftware
 github_repo: grnet/synnefo
 google_id: 102978637446585725532
