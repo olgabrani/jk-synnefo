@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+    <body>
+
+    {% include header.html %}
+
+    <div class="main">
+      {{ content }}
+    </div>
+    {% if page.footer %}
+        {% include footer-logos.html %}
+    {% endif %}
+
+    {% include scripts.html %}
+    </body>
+</html>

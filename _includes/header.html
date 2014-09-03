@@ -1,0 +1,36 @@
+
+    <header>
+    	<nav class="top-bar js-top-nav" data-topbar>
+            <ul class="title-area">
+                <li class="name">
+                    <a href="{{ site.baseurl }}/"><img src="{{ "/assets/synnefo-logo.png" | prepend: site.baseurl }}" alt="{{ site.title }}"></a>
+                </li>
+                 <li class="toggle-topbar menu-icon"><a href="#"><span>&nbsp;</span></a></li>
+            </ul>
+            <section class="top-bar-section">
+                <ul>
+                    {% for p in site.data.nav %}
+                        {% if page.url == p.url or page.parent == p.url %}
+                        <li class="active">
+                        {% else %}
+                        <li>
+                        {%  endif %}
+                            <a href="{{ p.url | prepend: site.baseurl }}">{{ p.title }}</a>
+                        </li>
+                    {% endfor %}
+                    <li><a href="http://synnefo-software.blogspot.gr/" target="_blank">Blog</a></li>
+                    {% if page.social %}
+                    <li class="social">
+                        <a href="https://twitter.com/{{ site.twitter_username }}" target="_blank" class="icons icon-twitter" title="Follow Synnefo on twitter"><span>twitter</span></a>
+                        <a href="https://plus.google.com/{{ site.google_id }}" target="_blank" class="icons icon-google" title="Synnefo on Google+"><span>google</span></a>
+                        <a href="https://github.com/{{ site.github_repo }}" target="_blank" class="icons icon-github" title="Fork Synnefo on Github"><span>github</span></a>
+                    </li>
+                    {% else %}
+
+                    <li  class="high" ><a href="https://accounts.demo.synnefo.org/ui/login" target="_blank">Try it out</a></li>
+                    {% endif %}
+                </ul>
+            </section>
+    	</nav>
+    </header>
+

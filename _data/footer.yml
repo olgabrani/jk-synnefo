@@ -1,0 +1,12 @@
+- id: grnet
+  url: 'https://www.grnet.gr/en'
+  title: GRNet
+- id: eu
+  url: 'http://europa.eu/'
+  title: European Union
+- id: dg
+  url: 'http://www.digitalplan.gov.gr/portal/'
+  title: Digital Greece
+- id: nsrf
+  url: 'http://www.espa.gr/en/Pages/Default.aspx'
+  title: NSRF

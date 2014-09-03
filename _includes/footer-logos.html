@@ -1,0 +1,13 @@
+<footer class="footer normal js-footer">
+    <nav class="row">
+        <ul class="logos">
+            {% for f in site.data.footer %}
+            <li id="{{ f.id }}">
+                <a href="{{ f.url }}" target="_blank" title="{{ f.title }}">{{ f.title }}</a>
+            </li>
+            {% endfor %}
+        </ul>
+    </nav>
+</footer>
+
+

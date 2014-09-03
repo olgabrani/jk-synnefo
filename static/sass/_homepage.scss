@@ -1,0 +1,39 @@
+.homepage   {
+    h1 {
+        text-align: left;
+    }   
+}
+
+.circles {
+    margin: 1em 0;
+    list-style: none outside none;
+    li {
+        background: $secondary-bg;
+        a {
+            display: block;
+            padding: 20px;    
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            font-weight: bold;
+            text-decoration: none;
+            color: $primary-color;
+        }
+        &:hover {
+            background: $primary-color;
+            a {
+                color: $secondary-bg;
+            }    
+        }
+        @media #{$medium-up} {
+            @include circle(150px, $secondary-bg);
+            text-align: center;
+            margin-right: 25px;
+        }
+        @media #{$large-up} {
+            @include circle(175px, $secondary-bg);
+            text-align: center;
+            margin-right: 60px;
+            font-size: emCalc(20px);
+        }
+    }
+}
