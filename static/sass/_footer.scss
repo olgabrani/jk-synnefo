@@ -2,9 +2,13 @@
     a {
         width: $width;
         background:url($img) no-repeat center right;
-        @media all and (-webkit-min-device-pixel-ratio: 1.5) {
-            background-image:url($img2x)
-        }
+
+        @media all and (-webkit-min-device-pixel-ratio : 1.5),
+               all and (-o-min-device-pixel-ratio: 3/2),
+               all and (min--moz-device-pixel-ratio: 1.5),
+               all and (min-device-pixel-ratio: 1.5) {
+                    background-image:url($img2x)
+                }
         background-size: 200%;
         &:hover {
             background-position:center left;

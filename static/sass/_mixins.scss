@@ -4,8 +4,6 @@
     padding: 0;
 }
  
-@mixin at2x($image_name, $w: auto, $h: auto, $extention: '.png'){};
-
 // Establishes the prequisits for sprite with background-image.
 // Background-position for normal and hover states need to 
 // be declared separetely
