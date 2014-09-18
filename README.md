@@ -7,7 +7,7 @@ We use [Jekyll](http://jekyllrb.com/) to generate the [synnefo.org](https://www.
 
 ## Requirements
 
-In order to generate the static files, you need to install **Jekyll** following [Jekyll installation instructions](http://jekyllrb.com/docs/installation/) and **compass** [according to compass installation guide](http://compass-style.org/install/). 
+In order to generate the static files, you need to install **Jekyll** following [Jekyll installation instructions](http://jekyllrb.com/docs/installation/) and **compass** according to [compass installation guide](http://compass-style.org/install/). 
 
 ## Build
 
@@ -31,7 +31,7 @@ jekyll serve
 ```
 and a development server will run at http://localhost:4000/
 
-For detailed options:
+For detailed options visit:
 [Jekyll official site](http://jekyllrb.com/) and
 [Compass homepage](http://compass-style.org/)
 
