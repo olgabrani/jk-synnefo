@@ -43,6 +43,11 @@ module.exports = function(grunt){
           cssDir: 'static/stylesheets',
           outputStyle: 'expanded',
         },
+        dev: {
+          options: {
+            outputStyle: 'expanded',
+          }
+        },
         prod: {
           options: {
             outputStyle: 'compressed',
@@ -59,7 +64,7 @@ module.exports = function(grunt){
     
     // run 'grunt serve' to compile static sass files, build, 
     // and run server, while watching for changes in jekyll fies 
-    grunt.registerTask('serve', ['compass:prod','jekyll:server']);
+    grunt.registerTask('serve', ['compass:dev','jekyll:server']);
     // run 'grunt build' to compile all static/sass/* files to 
     // static/styleheets/*.css and then build jekyll static site
     grunt.registerTask('build', ['compass:prod', 'jekyll:build']);

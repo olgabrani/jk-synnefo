@@ -7,9 +7,13 @@ We use [Jekyll](http://jekyllrb.com/) to generate the [synnefo.org](https://www.
 
 ## Requirements
 
-In order to generate the static files, you need to install **Jekyll** following [Jekyll installation instructions](http://jekyllrb.com/docs/installation/) and **compass** according to [compass installation guide](http://compass-style.org/install/). 
+In order to generate the static files, you need to install **Jekyll** following [Jekyll installation instructions](http://jekyllrb.com/docs/installation/).
+I assume that you have [nodejs](http://nodejs.org/) and [npm](https://www.npmjs.org/) installed. 
+Their versions, used in this project, are listed in `requirements.txt`.
 
-## Build
+## Build and serve (without Grunt)
+
+Install **compass** following the [compass installation guide](http://compass-style.org/install/)
 
 Once compass is installed, run the command 
 ```
@@ -29,9 +33,29 @@ If you want to run a local server to preview the generated site, you can type
 ```
 jekyll serve
 ```
-and a development server will run at http://localhost:4000/
+ and a development server will run at http://localhost:4000/
 
 For detailed options visit:
+
 [Jekyll official site](http://jekyllrb.com/) and
+
 [Compass homepage](http://compass-style.org/)
+
+## Build and serve (with Grunt)
+
+Move to the `jk-synnefo` folder and install project dependencies with 
+```
+npm install
+```
+Then run grunt with the following options:
+
+* `grunt` : Will compile sass files and then build all static pages
+* `grunt serve`: Will compile sass files, build all static pages, run a local server, found at `http://0.0.0.0:4000` and watch for changes in Jekyll pages.
+If you want to watch for changes in sass files, run `compass watch` in a separate terminal.
+
+
+## Output files
+
+All output static site pages and files are found under `_site/` folder.
+
 
