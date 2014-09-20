@@ -2,4 +2,5 @@
 .sass-cache
 static/stylesheets
 _site
+node_modules
 
