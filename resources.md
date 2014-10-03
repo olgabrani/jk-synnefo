@@ -27,6 +27,12 @@ layoutCls: x-wide
     </div>
     <div class="rt">
         <h2>Presentations</h2>
+        <p>Google GanetiCon 2014<br> Synnefo: An introduction and update
+            <br><a href="https://pithos.okeanos.grnet.gr/public/Si3JNhVoUQJcIdT2biwCc3" class="button download" title="Google GanetiCon 2014 presenatation">download </a>
+        </p>
+        <p>LinuxCon/Cloud Open North America 2014<br> Synnefo: A complete cloud platform over Google Ganeti with Openstack APIs
+            <br><a href="http://www.slideshare.net/VangelisKoukis/synnefo-linuxconcloudopen-na-2014" class="button download" title="LinuxCon/Cloud Open North America 2014 presenatation">download </a>
+        </p>
         <p>FOSDEM'14<br>Unified Cloud Storage with Synnefo + Ganeti + Archipelago + Ceph
             <br><a href="https://pithos.okeanos.grnet.gr/public/gyPowF3TPqdkqHnRWd8KU4" class="button download" title="fosdem 2014 Synnefo + Ganeti + Archipelago + Ceph presenatation">download </a>
             <a href="http://ftp.heanet.ie/mirrors/fosdem-video/2014/UD2120_Chavanne/Saturday/Unified_Cloud_Storage_with_Synnefo_Ganeti_Archipelago_Ceph.webm" title="fosdem 2014 Synnefo video" class="button watch" target="_blank"><span>watch video</span></a>
