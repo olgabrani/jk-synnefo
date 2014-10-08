@@ -30,7 +30,7 @@ layoutCls: x-wide
         <p>Google GanetiCon 2014<br> Synnefo: An introduction and update
             <br><a href="https://pithos.okeanos.grnet.gr/public/Si3JNhVoUQJcIdT2biwCc3" class="button download" title="Google GanetiCon 2014 presenatation">download </a>
         </p>
-        <p>LinuxCon/Cloud Open North America 2014<br> Synnefo: A complete cloud platform over Google Ganeti with Openstack APIs
+        <p>LinuxCon/CloudOpen North America, Aug 2014<br> Synnefo: A complete cloud platform over Google Ganeti with Openstack APIs
             <br><a href="http://www.slideshare.net/VangelisKoukis/synnefo-linuxconcloudopen-na-2014" class="button download" title="LinuxCon/Cloud Open North America 2014 presenatation">download </a>
         </p>
         <p>FOSDEM'14<br>Unified Cloud Storage with Synnefo + Ganeti + Archipelago + Ceph
