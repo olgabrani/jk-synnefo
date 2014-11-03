@@ -1,7 +1,7 @@
 @mixin footer-li($width, $img, $img2x) {
     a {
         width: $width;
-        background:url($img) no-repeat center right;
+        background:url($img) no-repeat center left;
 
         @media all and (-webkit-min-device-pixel-ratio : 1.5),
                all and (-o-min-device-pixel-ratio: 3/2),
@@ -10,14 +10,10 @@
                     background-image:url($img2x)
                 }
         background-size: 200%;
-        &:hover {
-            background-position:center left;
-        }
     }
 }
 
 .footer {
-    height: $topbar-height;
     background-color: $secondary-bg; 
 }
 .footer.normal,
@@ -29,17 +25,13 @@
 }
 
 .logos {
-    margin-bottom: 0;
+    margin: 0;
     li {
         list-style: none outside none;
         display: inline-block;
         line-height: $topbar-height - 2*$footer-padding;
         height: $topbar-height - 2*$footer-padding;
         margin-right: 20px;
-        &:first-child {
-            border-right: 1px solid $body-bg;
-            padding-right: 20px;
-        }
         a {
             text-indent: -999px;
             overflow: hidden;
@@ -67,15 +59,20 @@
     text-align: center;
 }
 
-.footer.inner ul {
+.footer ul.rt {
+    @media #{$medium-up} { 
+        float: right;
+    }
+
     margin: 0;
+    padding-top: 8px;
     list-style: none outside none;
     font-size: emCalc(14px);
     li {
         list-style: none outside none;
         display: inline-block;
-        padding-left: 1em;
-        margin-left: 1em;
+        padding-left: 10px;
+        margin-left: 10px;
         border-left: 1px solid $body-bg;
         &:first-child {
             padding: 0;
@@ -91,3 +88,9 @@
     }
 }
 
+.disclaimer {
+    margin: 0;
+    font-size: 13px;
+    padding-bottom: 0.5em;
+    letter-spacing: 1px;
+}
