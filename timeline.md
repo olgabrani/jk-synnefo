@@ -12,7 +12,15 @@ subnav:
 
 ---
 
-      
+
+## November 2014
+Synnefo v0.16 gets released, with a lot of new features. Support for multiple
+disks (volumes) per VM is added, a brand new administrator dashboard is
+introduced and a complete redesign of the Projects mechanism allows more
+flexibility. Finally, Archipelago becomes a prereq for Pithos, which also
+brings the long awaited Snapshot functionality, a way to create a snapshot of
+any disk of a Cyclades VM and save it to Pithos.
+
 ## May 2014
 Synnefo v0.15.2 gets released, being the first version to <a href="http://synnefo-software.blogspot.gr/2014/05/synnefo-comes-to-centos.html" title="">support CentOS 6.5</a>, alongside Debian Wheezy and also the first version to support Ganeti 2.10.
 
