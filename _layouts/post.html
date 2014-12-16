@@ -1,0 +1,14 @@
+---
+layout: default
+---
+
+
+<h1>BLOG</h1>
+<div class="row">
+  <h2>{{ page.title }}</h2>
+  <p class="author">
+    <span class="date">Posted on {{ page.date | date_to_long_string }}</span>
+  </p>
+  {{ content }}
+
+</div>
