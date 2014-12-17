@@ -3,13 +3,14 @@ layout: post
 title: Synnefo comes to CentOS!
 date: '2014-05-22T02:52:00.000-07:00'
 author: Constantinos Venetsanopoulos
-tags: 
+tags: [news]
 modified_time: '2014-05-22T02:52:08.039-07:00'
 blogger_id: tag:blogger.com,1999:blog-8518489485419439663.post-6662980026449980029
 blogger_orig_url: http://synnefo-software.blogspot.com/2014/05/synnefo-comes-to-centos.html
 ---
 
 Hello everybody,   
+
 As you may already know, Synnefo was initially developed for and deployed on Debian (in the same way [Ganeti](http://code.google.com/p/ganeti/) is).
 However, since more and more users have been asking to try it out on their own RPM-based distros, we decided to take the time and help them out.
 So, today, we are happy to announce that starting Synnefo v0.15.1, alongside Debian packages, we will also be officially providing RPM packages for the whole Synnefo stack.<!--break--> This will be done via our new yum repository:

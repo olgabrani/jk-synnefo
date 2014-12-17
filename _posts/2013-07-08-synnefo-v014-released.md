@@ -3,7 +3,7 @@ layout: post
 title: Synnefo v0.14 Released
 date: '2013-07-08T04:21:00.001-07:00'
 author: Constantinos Venetsanopoulos
-tags: 
+tags: [release]
 modified_time: '2013-07-08T05:12:59.225-07:00'
 blogger_id: tag:blogger.com,1999:blog-8518489485419439663.post-548241588343717381
 blogger_orig_url: http://synnefo-software.blogspot.com/2013/07/synnefo-v014-released.html

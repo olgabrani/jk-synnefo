@@ -3,7 +3,7 @@ layout: post
 title: A great GanetiCon 2013 has ended
 date: '2013-09-10T07:02:00.000-07:00'
 author: Constantinos Venetsanopoulos
-tags: 
+tags: [conference, ganeti]
 modified_time: '2013-09-10T07:04:14.521-07:00'
 blogger_id: tag:blogger.com,1999:blog-8518489485419439663.post-3453332965930377877
 blogger_orig_url: http://synnefo-software.blogspot.com/2013/09/a-great-ganeticon-2013-has-ended.html

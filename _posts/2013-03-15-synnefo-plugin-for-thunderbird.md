@@ -3,7 +3,7 @@ layout: post
 title: Synnefo plugin for Thunderbird
 author: Constantinos Venetsanopoulos
 date: '2013-03-15T09:10:00.001-07:00'
-tags: 
+tags: [news]
 modified_time: '2013-03-15T09:13:09.627-07:00'
 thumbnail: http://4.bp.blogspot.com/-I5WqdCCIK70/UUNHdqlGMwI/AAAAAAAAABI/p16yMyMN-2U/s72-c/okeanos-filelink-plugin-1.png
 blogger_id: tag:blogger.com,1999:blog-8518489485419439663.post-4526936746659388714

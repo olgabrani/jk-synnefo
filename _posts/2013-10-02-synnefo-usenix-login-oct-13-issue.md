@@ -3,7 +3,7 @@ layout: post
 title: 'Synnefo @ USENIX ;login: (Oct ''13 issue)'
 date: '2013-10-02T01:15:00.001-07:00'
 author: Constantinos Venetsanopoulos
-tags: 
+tags: [news]
 modified_time: '2013-10-02T01:15:10.995-07:00'
 blogger_id: tag:blogger.com,1999:blog-8518489485419439663.post-5729302495820443860
 blogger_orig_url: http://synnefo-software.blogspot.com/2013/10/synnefo-usenix-login-oct-13-issue.html

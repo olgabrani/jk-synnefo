@@ -3,7 +3,7 @@ layout: post
 title: 'Archipelago: officially open source'
 date: '2013-10-07T03:10:00.000-07:00'
 author: Constantinos Venetsanopoulos
-tags: 
+tags: [news]
 modified_time: '2014-05-29T02:26:34.517-07:00'
 blogger_id: tag:blogger.com,1999:blog-8518489485419439663.post-8736793615908354375
 blogger_orig_url: http://synnefo-software.blogspot.com/2013/10/archipelago-officially-open-source.html

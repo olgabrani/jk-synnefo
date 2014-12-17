@@ -3,7 +3,7 @@ layout: post
 title: Synnefo team @ Xen Hackathon 2013
 date: '2013-05-13T04:22:00.002-07:00'
 author: Constantinos Venetsanopoulos
-tags: 
+tags: [conference]
 modified_time: '2013-05-13T04:25:57.524-07:00'
 blogger_id: tag:blogger.com,1999:blog-8518489485419439663.post-5659454874971564290
 blogger_orig_url: http://synnefo-software.blogspot.com/2013/05/synnefo-team-xen-hackathon-2013.html

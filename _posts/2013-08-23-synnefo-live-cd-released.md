@@ -3,7 +3,7 @@ layout: post
 title: Synnefo Live CD Released
 date: '2013-08-23T09:38:00.000-07:00'
 author: Alex Pyrgiotis
-tags: 
+tags: [news]
 modified_time: '2013-08-26T07:05:45.646-07:00'
 blogger_id: tag:blogger.com,1999:blog-8518489485419439663.post-1847046110273460865
 blogger_orig_url: http://synnefo-software.blogspot.com/2013/08/synnefo-live-cd-released.html

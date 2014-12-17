@@ -3,7 +3,7 @@ layout: post
 title: Synnefo @ Ceph Day London
 date: '2013-09-12T07:14:00.001-07:00'
 author: Constantinos Venetsanopoulos
-tags: 
+tags: [conference]
 modified_time: '2013-09-12T07:19:04.843-07:00'
 blogger_id: tag:blogger.com,1999:blog-8518489485419439663.post-749774481392123393
 blogger_orig_url: http://synnefo-software.blogspot.com/2013/09/synnefo-ceph-day-london.html

@@ -3,7 +3,7 @@ layout: post
 title: Switch from okeanos.io to demo.synnefo.org
 date: '2013-08-27T12:26:00.000-07:00'
 author: Alex Pyrgiotis
-tags: 
+tags: [news]
 modified_time: '2013-09-10T06:14:25.634-07:00'
 blogger_id: tag:blogger.com,1999:blog-8518489485419439663.post-4266443073331643355
 blogger_orig_url: http://synnefo-software.blogspot.com/2013/08/switch-from-okeanosio-to-demosynnefoorg.html

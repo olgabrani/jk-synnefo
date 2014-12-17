@@ -3,7 +3,7 @@ layout: post
 title: Synnefo v0.15.1 Released
 date: '2014-05-15T05:34:00.000-07:00'
 author: Constantinos Venetsanopoulos
-tags: 
+tags: [release]
 modified_time: '2014-05-15T05:56:14.809-07:00'
 blogger_id: tag:blogger.com,1999:blog-8518489485419439663.post-2239564052114691168
 blogger_orig_url: http://synnefo-software.blogspot.com/2014/05/synnefo-v0151-released.html

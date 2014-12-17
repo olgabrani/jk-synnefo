@@ -3,7 +3,7 @@ layout: post
 title: Synnefo @ CloudOpen Europe 2013
 date: '2013-08-20T07:28:00.001-07:00'
 author: Constantinos Venetsanopoulos
-tags: 
+tags: [conference]
 modified_time: '2013-08-20T07:28:56.358-07:00'
 blogger_id: tag:blogger.com,1999:blog-8518489485419439663.post-4646524658377035466
 blogger_orig_url: http://synnefo-software.blogspot.com/2013/08/synnefo-cloudopen-europe-2013.html

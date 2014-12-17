@@ -3,7 +3,7 @@ layout: post
 title: 'First Google Ganeti Conference: GanetiCon 2013'
 date: '2013-05-22T04:48:00.003-07:00'
 author: Constantinos Venetsanopoulos
-tags: 
+tags: [conference, ganeti]
 modified_time: '2013-07-13T07:47:22.332-07:00'
 blogger_id: tag:blogger.com,1999:blog-8518489485419439663.post-5912264252756597709
 blogger_orig_url: http://synnefo-software.blogspot.com/2013/05/first-google-ganeti-conference.html

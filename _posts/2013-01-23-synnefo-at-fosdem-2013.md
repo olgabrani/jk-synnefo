@@ -3,7 +3,7 @@ layout: post
 title: Synnefo at FOSDEM 2013
 date: '2013-01-23T07:52:00.003-08:00'
 author: Constantinos Venetsanopoulos
-tags: 
+tags: [conference, fosdem]
 modified_time: '2013-01-24T02:54:05.829-08:00'
 blogger_id: tag:blogger.com,1999:blog-8518489485419439663.post-57839446920257776
 blogger_orig_url: http://synnefo-software.blogspot.com/2013/01/synnefo-at-fosdem-2013.html

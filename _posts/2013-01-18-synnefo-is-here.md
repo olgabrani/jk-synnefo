@@ -3,7 +3,7 @@ layout: post
 title: Synnefo is here!
 date: '2013-01-18T07:42:00.001-08:00'
 author: Constantinos Venetsanopoulos
-tags:
+tags: [news]
 modified_time: '2013-04-22T06:10:37.158-07:00'
 blogger_id: tag:blogger.com,1999:blog-8518489485419439663.post-6543227314885972701
 blogger_orig_url: http://synnefo-software.blogspot.com/2013/01/synnefo-is-here.html

@@ -3,7 +3,7 @@ layout: post
 title: Synnefo v0.14.10 Released
 date: '2013-11-26T03:19:00.000-08:00'
 author: Constantinos Venetsanopoulos
-tags: 
+tags: [release]
 modified_time: '2013-11-26T03:20:14.243-08:00'
 blogger_id: tag:blogger.com,1999:blog-8518489485419439663.post-229270281575781534
 blogger_orig_url: http://synnefo-software.blogspot.com/2013/11/hello-everybody-we-are-pleased-to.html

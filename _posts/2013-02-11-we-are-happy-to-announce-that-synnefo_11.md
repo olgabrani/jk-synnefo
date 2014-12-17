@@ -3,7 +3,7 @@ layout: post
 title: Synnefo + RADOS = <3
 date: '2013-02-11T08:47:00.002-08:00'
 author: Constantinos Venetsanopoulos
-tags: 
+tags: [news]
 modified_time: '2013-02-12T02:26:04.727-08:00'
 thumbnail: http://3.bp.blogspot.com/-tF0yttj2eLI/URkXSSRT4fI/AAAAAAAAAAM/9cj_A3bgsiQ/s72-c/synnefo_arch.png
 blogger_id: tag:blogger.com,1999:blog-8518489485419439663.post-9221814024451410216

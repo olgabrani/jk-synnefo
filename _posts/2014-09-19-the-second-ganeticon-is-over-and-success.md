@@ -3,7 +3,7 @@ layout: post
 title: The second GanetiCon is over and a success
 date: '2014-09-19T03:45:00.001-07:00'
 author: Constantinos Venetsanopoulos
-tags: 
+tags: [conference, ganeti]
 modified_time: '2014-09-19T03:47:33.256-07:00'
 blogger_id: tag:blogger.com,1999:blog-8518489485419439663.post-5057199032525838327
 blogger_orig_url: http://synnefo-software.blogspot.com/2014/09/the-second-ganeticon-is-over-and-success.html
@@ -22,7 +22,7 @@ The design discussions went pretty well too, opening up the roadmap for new Gane
 
 So, all in all it was an absolutely exciting 3-day event.
 
-For all of you that missed GanetiCon 2014, you can take a glimpse of what happened and also take a look at all presentation slide decks at the [GanetiCon site](https://sites.google.com/site/ganeticon/home/ganeticon2014?pli=1)
+For all of you that missed GanetiCon 2014, you can take a glimpse of what happened and also take a look at all presentation slide decks at the [GanetiCon site](https://sites.google.com/site/ganeticon/home/ganeticon2014?pli=1).
 
 After the second year being a success, GanetiCon seems to be here to stay.  
 Until next year then,
