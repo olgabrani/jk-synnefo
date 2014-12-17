@@ -1,14 +1,14 @@
 ---
-layout: default
+layout: blog
+permalink: /blog/
 ---
 
+<h2>{{ page.title }}</h2>
+<p class="author">
+    <span class="date">Posted on {{ page.date | date_to_long_string }}<br> by {{page.author}}</span>
+</p>
+<p id="post-meta">{{ tags_content }}</p>
 
-<h1>BLOG</h1>
-<div class="row">
-  <h2>{{ page.title }}</h2>
-  <p class="author">
-    <span class="date">Posted on {{ page.date | date_to_long_string }}</span>
-  </p>
-  {{ content }}
+{{ content }}
 
-</div>
+<p><a href="{{site.baseurl}}/blog" class="button">Back to posts</a></p>

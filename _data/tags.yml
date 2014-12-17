@@ -1,0 +1,10 @@
+- slug: release
+  name: release
+- slug: conference
+  name: conference
+- slug: news
+  name: news
+- slug: ganeti
+  name: ganeti
+- slug: fosdem
+  name: fosdem

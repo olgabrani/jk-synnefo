@@ -1,0 +1,56 @@
+---
+layout: page
+title: Blog
+layoutCls: x-wide
+---
+
+
+{% if page.tags.size > 0 %}
+    {% capture tags_content %}Categories: {% endcapture %}
+    {% for post_tag in page.tags %}
+        {% for data_tag in site.data.tags %}
+            {% if data_tag.slug == post_tag %}
+                {% assign tag = data_tag %}
+            {% endif %}
+        {% endfor %}
+        {% if tag %}
+            {% capture tags_content_temp %}{{ tags_content }}<a href="/blog/tag/{{ tag.slug }}/" class="label">{{ tag.name }}</a>{% if forloop.last == false %}, {% endif %}{% endcapture %}
+            {% assign tags_content = tags_content_temp %}
+        {% endif %}
+    {% endfor %}
+{% else %}
+    {% assign tags_content = '' %}
+{% endif %}
+
+
+
+<div class="row">
+    <div class="small-2 columns sidemenu">
+        <p><strong>Categories</strong></p>
+        <ul>
+            {% for tag in site.data.tags %}
+                <li>
+                    <a href="{{site.baseurl}}/blog/tag/{{ tag.slug }}/">{{tag.name}}</a>
+                </li>
+            {% endfor %}
+        </ul>
+    </div>
+    <div class="small-6 columns post">
+        {{content}}
+    </div>
+      
+    <div class="small-4 columns sidemenu">
+        <p><strong>All Posts</strong></p>
+        <ul>
+        {% for post in site.posts %}
+            {% if page.url == post.url%}
+            <li class="active">
+            {% else %}
+            <li>
+            {% endif %}
+                <span class="date">[{{ post.date | date: "%b %Y" }}]</span> <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+            </li>
+        {% endfor %}
+        </ul>
+    </div>
+</div>
