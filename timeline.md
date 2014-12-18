@@ -13,7 +13,7 @@ subnav:
 ---
 
 
-## November 2014
+## Nov 2014
 Synnefo v0.16 gets released, with a lot of new features. Support for multiple
 disks (volumes) per VM is added, a brand new administrator dashboard is
 introduced and a complete redesign of the Projects mechanism allows more
