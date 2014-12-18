@@ -319,6 +319,19 @@ header {
     .more {
         white-space: nowrap;
     }
+    .prev-next {
+        margin-top: 2em;
+        text-align: center;
+        position: relative;
+        .rt-post {
+            position: absolute;
+            right: 0;
+        }
+        .lt-post {
+            position: absolute;
+            left: 0;
+        }
+    }
 }
 
 .sidemenu {
