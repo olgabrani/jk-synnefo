@@ -1,9 +1,7 @@
 jk-synnefo
 ==========
 
-Use Jekyll to generate synnefo.org website https://www.synnefo.org/
-
-We use [Jekyll](http://jekyllrb.com/) to generate the [synnefo.org](https://www.synnefo.org/) website.
+Use [Jekyll](http://jekyllrb.com/) to generate [synnefo.org](https://www.synnefo.org/) website.
 
 ## Requirements
 
