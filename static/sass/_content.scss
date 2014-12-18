@@ -291,8 +291,11 @@ header {
 
 .post {
     margin-bottom: 3em;
-    .author {
+    .post-content {
         font-size: emCalc(14px);
+    }
+    .author {
+        font-size: emCalc(13px);
         margin-bottom: 0em;
         color: lighten($body-font-color, 15%);
     }
@@ -302,13 +305,14 @@ header {
     }
     h2 {
         margin: -6px 0 0.5em;
-        font-size: emCalc(24px);
+        font-size: emCalc(22px);
         &+.author {
             margin-bottom: 1em;
         }
     }
-    p {
+    p, ul, ol{
         margin-bottom: 1em;
+        font-size: 1em;
     }
     .more {
         white-space: nowrap;
