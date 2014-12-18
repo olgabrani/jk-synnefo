@@ -11,4 +11,4 @@ google_id: 102978637446585725532
 # Build settings
 markdown: kramdown
 permalink: pretty
-exclude: [static/sass/]
+exclude: [static/sass/, node_modules, requirements.txt, Gruntfile.js, package.json, README.md]
