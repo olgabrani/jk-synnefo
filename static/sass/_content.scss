@@ -251,7 +251,8 @@ pre     {
     text-align: center;
 }
 
-.screenshot-links a {
+a[data-lightbox]{
+
     position: relative;
     display:block;
     cursor: default;
@@ -267,7 +268,8 @@ pre     {
         background:url(../images/eye.png) no-repeat center center;
     }
 }
-.screenshot-links a:hover{
+
+a[data-lightbox]:hover{
     @media #{$small}{ 
         cursor: pointer;
         span {

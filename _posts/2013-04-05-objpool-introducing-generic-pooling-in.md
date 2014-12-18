@@ -67,7 +67,7 @@ We created a [generic object pool class](https://github.com/grnet/objpool/blob/d
 
 Here's a diagram of the pooling we have currently deployed:
 
-![pooling]({{ "/assets/synnefo1.png" | prepend: site.baseurl }})
+{% include lightbox-img.html img_name="synnefo1.png" img_alt="Pooling" %}
 
 As you can see there are quite a few places for pooling, and it's nice we have them all covered with minimal effort.
 

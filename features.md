@@ -48,7 +48,11 @@ sections:
 <ul class="small-block-grid-1 large-block-grid-2 screenshot-links">
 {% for s in page.sections %}
     <li>
-		<a href="{{ s.url | prepend: site.baseurl}}"><span>&nbsp;</span><img src="{{ s.img | prepend:'/assets/' | prepend: site.baseurl}}" alt="{{ s.alt }}"></a>
+
+        <a href="{{site.baseurl}}/assets/{{s.img}}" data-lightbox="lightbox" data-title="{{s.alt}}">
+            <span>&nbsp;</span>
+            <img src="{{site.baseurl}}/assets/{{s.img}}" alt="{{s.alt}}">
+        </a>
         <p>{{ s.text }}</p>
     </li>
 {% endfor %}

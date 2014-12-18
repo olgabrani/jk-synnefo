@@ -21,11 +21,11 @@ Synnefo has three (3) basic components that provide all its Services. These comp
 
 Synnefo exposes the OpenStack APIs for most of its operations. Also, extensions have been written for advanced operations wherever needed, and minor changes for things that were missing or change frequently. Specifically:
 
-![Synnefo API]({{ "/assets/synnefo_api.png" | prepend: site.baseurl }})
+{% include lightbox-img.html img_name="synnefo_api.png" img_alt="Synnefo API" %}
 
 The following diagram shows the layered approach of Synnefo and the various APIs for each Service. The corresponding Synnefo component that implements each Service also appears in the diagram:
 
-![Synnefo layers]({{ "/assets/synnefo_layers_all.png" | prepend: site.baseurl }})
+{% include lightbox-img.html img_name="synnefo_layers_all.png" img_alt="Synnefo layers" %}
 
 As shown above, the Synnefo Web UI is a standalone Javascript client that speaks the Synnefo APIs. There is also an intuitive command line client called [kamaki](http://www.synnefo.org/docs/kamaki/latest/index.html), that speaks the APIs and can be used to access Synnefo. Furthermore, one can use the kamaki library for programmatic access.
 

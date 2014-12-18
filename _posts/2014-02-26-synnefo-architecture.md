@@ -16,12 +16,11 @@ Hello everybody,
 On a [previous post](/2013/04/23/synnefo-services-and-rest-apis/), almost a year ago, we described the services and REST APIs of Synnefo.  <!--break-->
 Today, we have 2 new diagrams that show Synnefo's layered approach and overall architecture in more detail. First, we extended the diagram from the previous post that presented the zoom-out view, to include all layers from the hypervisor up to the clients (Web UI or command line). We also updated the API layer to reflect the complete OpenStack compatibility that has been included in the latest version. We have now fully integrated Neutron, Cinder and Keystone  along with the previously implemented Nova, Glance and Swift:
 
-![Synnefo Architecture]({{ "/assets/synnefo_architecture1.png" | prepend: site.baseurl }})
+{% include lightbox-img.html img_name="synnefo_architecture1.png" img_alt="Synnefo Architecture" %}
 
 The second diagram is created from scratch and zooms in to unveil the whole internal Synnefo architecture, showing all Synnefo components and the interconnections between them:
 
-![Synnefo Architecture]({{ "/assets/synnefo_architecture2.png" | prepend: site.baseurl }})
-
+{% include lightbox-img.html img_name="synnefo_architecture2.png" img_alt="Synnefo Architecture" %}
 
 Note that in the left part (Compute/Network) the cloud layer (Synnefo) interacts with the cluster layer (Ganeti clusters) only via HTTP in the effect path and only via AMQP in the update path. The cluster layer does not access any DB, allowing us to scale linearly by adding new nodes on a Ganeti cluster or new Ganeti clusters altogether, even in geographically distinct locations. 
 

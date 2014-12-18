@@ -23,7 +23,7 @@ An obvious choice would be to use a distributed filesystem running over commodit
 So, we decided to test RADOS, since we had already been following the progress of [Ceph](http://ceph.com/) from mid 2010. For the VM disks part, we implemented RBD support inside Ganeti and merged it into the official upstream. Starting with version 2.6, Ganeti supports instance disks on RADOS out of the box. It uses the RBD kernel driver and the RBD tools to do that. Furthermore, we implemented a RADOS backend driver for our Storage service. We chose not to go with [RadosGW](http://ceph.com/docs/master/radosgw/) since we already had in production a storage frontend that implemented the OpenStack Object Storage API and also allowed for more advanced features such as deduplication via content hashing, file sharing among users etc.  
 By late 2011, we had it all up and running for testing. The architecture looked like this:
 
-![Synnefo Architecture]({{ "/assets/synnefo_arch.png" | prepend: site.baseurl }})
+{% include lightbox-img.html img_name="synnefo_arch.png" img_alt="Synnefo Archipelago" %}
 
 The above made two things possible:  
 a) it enabled selection of the storage type for VMs, either RBD or DRBD, as an option for Synnefo end users, and  
@@ -44,7 +44,7 @@ To integrate with Ganeti, we stopped using Ganeti's native RBD support to talk t
 
 To integrate with RADOS, we implemented a RADOS driver for Archipelago. Finally, by late 2012 we had the code completed and have been testing it ever since. The architecture now looks like this:
 
-![Archipelago]({{ "/assets/synnefo_arch1.png" | prepend: site.baseurl }})
+{% include lightbox-img.html img_name="synnefo_arch1.png" img_alt="Synnefo Archipelago" %}
 
 
 After 3 months of stress testing, we are now in the process of moving everything into [~okeanos production](http://okeanos.grnet.gr/), which is running more than 2700 active VMs for more than 1900 users, at the time of this writing.

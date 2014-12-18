@@ -10,8 +10,7 @@ blogger_id: tag:blogger.com,1999:blog-8518489485419439663.post-45269367466593887
 blogger_orig_url: http://synnefo-software.blogspot.com/2013/03/synnefo-plugin-for-thunderbird.html
 ---
 
-
-![Filelink plugin]({{ "/assets/okeanos-filelink-plugin-1.png" | prepend: site.baseurl }})<!--break-->
+{% include lightbox-img.html img_name="okeanos-filelink-plugin-1.png" img_alt="Filelink plugin" %}
 
 Starting in version 13, [Thunderbird](https://www.mozilla.org/EN/thunderbird/) added support for online storage services through  [Filelink](https://support.mozillamessaging.com/en-US/kb/filelink-large-attachments). It allows you to upload attachments to an online storage service and then replaces the attachment in the message with a link. Filelink can be configured to use many of the well known storage services out there and it can now be configured to support Synnefo deployments, too.
 
@@ -19,4 +18,5 @@ We created the [~okeanos filelink plugin](https://addons.mozilla.org/addon/~okea
 
 Feel free to clone its [code](https://github.com/grnet/okeanos-filelink.git) and create your own Thunderbird plugin by only changing the endpoint URLs. You can then use it with your Synnefo powered cloud service. 
 
-![Filelink plugin]({{ "/assets/okeanos-filelink-plugin-2.png" | prepend: site.baseurl }})
+
+{% include lightbox-img.html img_name="okeanos-filelink-plugin-2.png" img_alt="Filelink plugin" %}
