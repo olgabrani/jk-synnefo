@@ -25,7 +25,7 @@ layoutCls: x-wide
 
 
 <div class="row">
-    <div class="small-2 columns sidemenu">
+    <div class="medium-2 columns sidemenu small-hide">
         <p><strong>Categories</strong></p>
         <ul>
             {% for tag in site.data.tags %}
@@ -35,11 +35,11 @@ layoutCls: x-wide
             {% endfor %}
         </ul>
     </div>
-    <div class="small-6 columns post">
+    <div class="medium-6 columns post">
         {{content}}
     </div>
       
-    <div class="small-4 columns sidemenu archive">
+    <div class="medium-4 columns sidemenu archive small-hide">
         <p><strong><a href="{{site.baseurl}}/blog/">Posts Archive</a></strong></p>
         {%for post in site.posts  %}
             {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
