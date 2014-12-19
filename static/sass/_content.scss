@@ -337,6 +337,7 @@ header {
 .sidemenu {
     ul {
         margin-left: 0;
+        font-size: emCalc(14px);
         li {
             &.active {
                 a {
@@ -344,13 +345,27 @@ header {
                 }
             }
             list-style: none outside none;
-            padding: 0 0 10px 0;
+            padding: 0 0 5px 0;
             .date {
                 font-size: emCalc(14px);
                 margin-bottom: 0em;
                 color: lighten($body-font-color, 15%);
             }
         }
+    }
+    h2 {
+        font-size: emCalc(20px);
+    }
+    h3 {
+        font-size: emCalc(14px);
+        color: lighten($body-font-color, 15%);
+        font-weight: normal;
+    }
+    &.archive {
+        ul {
+            margin: 0 0 0 0.5em;
+        }
+
     }
 
 }
