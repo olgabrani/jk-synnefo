@@ -1,0 +1,97 @@
+@mixin footer-li($width, $img, $img2x) {
+    a {
+        width: $width;
+        background:url($img) no-repeat center left;
+
+        @media all and (-webkit-min-device-pixel-ratio : 1.5),
+               all and (-o-min-device-pixel-ratio: 3/2),
+               all and (min--moz-device-pixel-ratio: 1.5),
+               all and (min-device-pixel-ratio: 1.5) {
+                    background-image:url($img2x)
+                }
+        background-size: 200%;
+    }
+}
+
+.footer {
+    background-color: $secondary-bg; 
+}
+.footer.normal,
+.footer.inner{
+    position: fixed;
+    bottom:0;
+    left:0;
+    right:0;
+}
+
+.logos {
+    margin: 0;
+    li {
+        list-style: none outside none;
+        display: inline-block;
+        line-height: $topbar-height - 2*$footer-padding;
+        height: $topbar-height - 2*$footer-padding;
+        margin-right: 20px;
+        a {
+            text-indent: -999px;
+            overflow: hidden;
+            height: 100%;
+            display: block;
+        }
+        &#grnet {
+            @include footer-li(76px,'../images/grnet.png','../images/grnet.png');
+        }
+        &#eu {
+            @include footer-li(144px,'../images/eu.png','../images/eu@2x.png');
+        }
+        &#dg {
+            @include footer-li(130px,'../images/dg.png','../images/dg@2x.png');
+        }
+        &#nsrf {
+            @include footer-li(56px,'../images/nsfr.png','../images/nsfr@2x.png');
+        }
+    }
+}
+
+.footer.inner {
+    padding: 10px 0;
+    height: auto;
+    text-align: center;
+}
+
+.footer ul.rt {
+    @media #{$medium-up} { 
+        float: right;
+        padding-top: 18px;
+    }
+
+    margin: 0;
+    padding-top: 8px;
+    list-style: none outside none;
+    font-size: emCalc(14px);
+    li {
+        list-style: none outside none;
+        display: inline-block;
+        padding-left: 10px;
+        margin-left: 10px;
+        border-left: 1px solid $body-bg;
+        &:first-child {
+            padding: 0;
+            margin: 0;
+            border: 0 none;
+        }
+    }
+    a {
+        color: $body-font-color;
+        &:hover {
+            color: $primary-color;
+        }
+    }
+}
+
+.disclaimer {
+    margin: 0;
+    font-size: 13px;
+    padding-bottom: 0.5em;
+    letter-spacing: 1px;
+}

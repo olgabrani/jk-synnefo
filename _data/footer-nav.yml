@@ -1,0 +1,7 @@
+- title: Demo FAQ
+  url: '/faq/'
+  internal: true
+- title: Github Repo
+  url: 'https://github.com/grnet/synnefo/'
+- title: Documentation
+  url: 'https://www.synnefo.org/docs/synnefo/latest/index.html'

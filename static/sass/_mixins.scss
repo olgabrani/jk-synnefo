@@ -1,0 +1,61 @@
+// Set margin and padding to zero 
+@mixin marginPaddingZero() {
+    margin: 0;
+    padding: 0;
+}
+ 
+// Establishes the prequisits for sprite with background-image.
+// Background-position for normal and hover states need to 
+// be declared separetely
+@mixin sprite($image, $width, $height){
+    background:url($image);
+    width: $width;
+    height:$height;
+    display: inline-block;
+    text-indent: -2000px;
+    overflow: hidden;
+}
+
+// Transition for css properties
+@mixin transition($transition-property, $transition-time, $method) {
+    -webkit-transition: $transition-property $transition-time $method;
+    -moz-transition: $transition-property $transition-time $method;
+    -ms-transition: $transition-property $transition-time $method;
+    -o-transition: $transition-property $transition-time $method;
+    transition: $transition-property $transition-time $method;
+}
+
+// Box-shadow property. For no box-shadow use box-shadow(none)
+@mixin box-shadow($shadows...) {
+  -moz-box-shadow: $shadows;
+  -webkit-box-shadow: $shadows;
+  box-shadow: $shadows;
+}
+ 
+
+@mixin circle($width, $color) {
+    display: inline-block;
+    width: $width;
+    height: $width;
+    background: $color;
+    -webkit-border-radius: $width/2;
+    -moz-border-radius: $width/2;
+    border-radius: $width/2;
+    a, span {
+        display: table-cell;
+        vertical-align: middle;
+        width: $width;
+        height: $width;
+        line-height: 130%;
+        padding: 0 20px;
+    }
+}
+
+@mixin ghostVerticalAlign(){
+  &:before {
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%; width: .1px;
+  }
+}

@@ -1,0 +1,22 @@
+<footer class="footer inner js-footer">
+    <nav class="row">
+        <ul>
+            {% for f in site.data.footer-nav %}
+            <li>
+                <a  
+                    {% if f.internal %}
+                    href="{{ f.url | prepend: site.baseurl }}" 
+                    {% else %}
+                    href="{{ f.url }}" 
+                    {% endif %}
+                    title="{{ f.title }}">
+                    {{ f.title }}
+                </a>
+            </li>
+            {% endfor %}
+            <li>{% include rss.html %}</li>
+        </ul>
+    </nav>
+</footer>
+
+

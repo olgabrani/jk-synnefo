@@ -1,0 +1,13 @@
+- title: About
+  url: '/about/'
+- title: Features
+  url: '/screenshots/'
+- title: Resources
+  url: '/resources/'
+- title: Use Cases
+  url: '/usecases/'
+- title: Community
+  url: '/community/'
+- title: Blog
+  url: '/blog/'
+

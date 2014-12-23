@@ -1,0 +1,12 @@
+<div class="post">
+    <p class="author">
+        <span class="date">{{ post.date | date_to_long_string }}</span>
+    </p>
+    <h3><a href="{{ post.url | prepend: site.baseurl}}">{{ post.title }}</a></h3>
+    <div class="post-content">
+        {{ post.content | split:'<!--break-->' | first }}
+        {% if post.content contains '<!--break-->' %}
+            <a href="{{ post.url | prepend: site.baseurl}}" class="more"> Read more...</a>
+        {% endif %}
+    </div>
+</div>

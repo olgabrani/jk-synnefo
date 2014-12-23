@@ -1,0 +1,24 @@
+---
+layout: blog
+permalink: /blog/
+---
+
+<h2>{{ page.title }}</h2>
+<p class="author">
+    <span class="date">Posted on {{ page.date | date_to_long_string }}<br> by {{page.author}}</span>
+</p>
+<p id="post-meta">{{ tags_content }}</p>
+<div class="post-content">
+    {{ content }}
+</div>
+<p class="prev-next clearfix">
+    {% if page.previous %}
+    <a href="{{page.previous.url}}" title="{{page.previous.title}}" class="lt-post">« Previous post</a>
+    {% endif %}
+
+    <a href="{{site.baseurl}}/blog">All posts</a>
+
+    {% if page.next %}
+    <a href="{{page.next.url}}" class="rt-post" title="{{page.next.title}}">Next post »</a>
+    {% endif %}
+</p>

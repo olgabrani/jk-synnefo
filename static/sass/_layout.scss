@@ -1,0 +1,23 @@
+.main { padding:0 $row-padding 50px;}
+
+.homepage .row {
+    max-width:$wide-row-width;
+    position:relative;
+    padding: 0 $row-padding;
+}
+
+.footer .row {
+    max-width: $wide-row-width;
+    padding:$footer-padding 20px;
+}
+
+.x-wide {
+    max-width: $x-wide-row-width;
+}
+
+
+@media #{$small-only} { 
+    .small-hide {
+        display: none;
+    }
+}

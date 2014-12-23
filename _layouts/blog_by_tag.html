@@ -1,0 +1,16 @@
+---
+layout: blog
+title: Blog
+permalink: /blog/
+---
+
+<p>Category: <strong>{{page.tag}}</strong></p>
+
+{% if site.tags[page.tag] %}
+    {% for post in site.tags[page.tag] %}
+        {% include post-excerpt.html %}  
+      
+    {% endfor %}
+{% else %}
+    <p>There are no posts for this tag.</p>
+{% endif %}
