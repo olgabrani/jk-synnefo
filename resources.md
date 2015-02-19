@@ -11,9 +11,20 @@ layoutCls: x-wide
     </div>
     <div class="rt">
         <h2>General Documentation</h2>
-        <p>Synnefo design, architecture, components <br><a href="http://www.synnefo.org/docs/synnefo/latest/index.html">take me there</a></p>
+        <p>Synnefo design, architecture, components <br>
+            <a href="http://www.synnefo.org/docs/synnefo/latest/index.html">Latest documentation (0.16)</a><br>
+            <a href="https://www.synnefo.org/docs/synnefo/0.15/">0.15 documentation </a><br>
+            <a href="https://www.synnefo.org/docs/synnefo/0.14/">0.14 documentation</a><br>
+            <a href="https://www.synnefo.org/docs/synnefo/0.13/">0.13 documentation</a><br>
+        </p>
         <h2>Synnefo Guides </h2>
-        <p>Installation, Administrator's Guide, Developer's Guide<br><a href="http://www.synnefo.org/docs/synnefo/latest/index.html#synnefo-guides">take me there</a></p>
+        <p>Installation, Administrator's Guide, Developer's Guide<br>
+            <a href="http://www.synnefo.org/docs/synnefo/latest/index.html#synnefo-guides">Latest guides (0.16)</a><br>
+            <a href="http://www.synnefo.org/docs/synnefo/0.15/index.html#synnefo-guides">0.15 guides </a><br>
+            <a href="http://www.synnefo.org/docs/synnefo/0.14/index.html#synnefo-guides">0.14 guides</a><br>
+            <a href="http://www.synnefo.org/docs/synnefo/0.13/index.html#synnefo-guides">0.13 guides</a><br>
+        </p>
+
         <h2>Synnefo Whitepaper</h2>
         <p>General architecture and key features<br><a href="{{ '/downloads/synnefo_white_paper_Hi.pdf' | prepend: site.baseurl }}" class="button download">download </a></p>
     </div>
