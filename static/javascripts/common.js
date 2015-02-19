@@ -1,4 +1,4 @@
-function toogleFooterClass(){
+function toggleFooterClass(){
     var topNavH = parseInt($('.js-top-nav').height());
     var mainH = parseInt($('.js-main').outerHeight());
     var windowH = parseInt($(window).height());
@@ -52,12 +52,12 @@ $(document).ready( function() {
         $(this).parents('.top-bar').toggleClass('expanded');
     })
 
-    toogleFooterClass();
+    toggleFooterClass();
 })
  
 $(window).resize(function() {
  
-    toogleFooterClass();
+    toggleFooterClass();
     $('.set-height').each( function(){
         setPlayerHeight($(this));
     });
