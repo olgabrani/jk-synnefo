@@ -369,3 +369,26 @@ header {
     }
 
 }
+
+.usecases {
+    ul {
+        li {
+            list-style: none outside none;
+            margin-bottom: 3em;
+            h2 {
+                margin-bottom: 1em;
+            }
+            img {
+                margin: 0 0 1em;
+                @media #{$medium-up} { 
+                    margin: 0 1em 1em 0;
+                    max-width: 30%;
+                    float: left;
+                }
+            }
+            p {
+                font-size: emCalc(14px);
+            }
+        }
+    }
+}
