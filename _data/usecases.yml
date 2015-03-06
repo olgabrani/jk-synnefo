@@ -1,4 +1,13 @@
 - title : '~okeanos public cloud service'
   url: 'https://okeanos.grnet.gr/home/'
   img_src: '/assets/usecases-logo.png'
-  description: "~okeanos is GRNET's public cloud service. <br> It runs in production since mid 2011 and provides cloud services to the whole Greek research and academic community."
+  description: "~okeanos is GRNET's public cloud service. <br> It runs in
+production since mid 2011 and provides cloud services to the whole Greek
+research and academic community."
+
+- title: 'DeIC, Danish NREN installation'
+  url: 'http://www.deic.dk/node/110?language=en'
+  img_src: '/assets/DeIC-logo.png'
+  description: "DeIC is the Danish NREN and uses Synnefo for its internal
+virtualization purposes. The production cluster features 1TB of total RAM and
+100TB raw storage capacity."
