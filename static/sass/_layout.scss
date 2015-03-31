@@ -1,4 +1,8 @@
-.main { padding:0 $row-padding 50px;}
+.main { 
+    padding:0 $row-padding;
+    padding-bottom: 50px;
+
+}
 
 .homepage .row {
     max-width:$wide-row-width;

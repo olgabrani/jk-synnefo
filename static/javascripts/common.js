@@ -2,7 +2,8 @@ function toggleFooterClass(){
     var topNavH = parseInt($('.js-top-nav').height());
     var mainH = parseInt($('.js-main').outerHeight());
     var windowH = parseInt($(window).height());
-    var res = windowH - (topNavH+mainH);
+    var mainP = 50;
+    var res = windowH - (topNavH+mainH + mainP);
     var footerHeight = $('.js-footer').outerHeight();
     if (res>0) {
         $('.js-footer').addClass('normal');
