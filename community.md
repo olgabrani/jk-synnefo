@@ -5,9 +5,6 @@ permalink: /community/
 layoutCls: centered
 ---
 
-## Help
-[ask.synnefo.org](https://ask.synnefo.org/)
-
 ## Users list
 [synnefo@googlegroups.com](mailto:synnefo@googlegroups.com)  
 ([Homepage](https://groups.google.com/forum/?fromgroups#!forum/synnefo))
