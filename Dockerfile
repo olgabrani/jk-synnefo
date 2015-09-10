@@ -1,8 +1,10 @@
-FROM shawnzhu/ruby-nodejs
-RUN gem install jekyll
+FROM node
+
+RUN apt-get update && apt-get install -y --no-install-recommends ruby rubygems ruby-dev
+RUN gem install jekyll compass
 
 ADD . /src
 WORKDIR /src
-RUN npm install -y -g
+RUN compass compile static --output=compressed
 
-CMD [ "jekyll", "serve", "-H", "0.0.0.0" ]
+CMD ["jekyll", "serve", "-H", "0.0.0.0"]
