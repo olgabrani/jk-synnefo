@@ -52,8 +52,10 @@ Then run grunt with the following options:
 If you want to watch for changes in sass files, run `compass watch` in a separate terminal.
 
 
+## Build using Docker
+
+Just run `docker build .` and everything should be build automatically.
+
 ## Output files
 
 All output static site pages and files are found under `_site/` folder.
-
-
