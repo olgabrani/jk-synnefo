@@ -27,6 +27,6 @@ Enjoy,
 the Synnefo team
 
 [1]: https://www.synnefo.org/docs/synnefo/latest/Changelog.html?highlight=changelog#v0-16-1
-[2]: https://www.synnefo.org/docs/synnefo/latest/upgrade/upgrade-0.16.1.html
+[2]: https://www.synnefo.org/docs/synnefo/latest/upgrade/upgrade-0.16.html
 [3]: https://groups.google.com/forum/#!forum/synnefo
 [4]: https://kiwiirc.com/client/chat.freenode.net/synnefo
