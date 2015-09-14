@@ -10,6 +10,7 @@
     list-style: none outside none;
     li {
         background: $secondary-bg;
+        font-family: $header-font-family;
         a {
             display: block;
             padding: 20px;    

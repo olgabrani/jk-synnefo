@@ -99,7 +99,7 @@ $row-width: rem-calc(650);
 // We use these to control various global styles
 $body-bg: #e6e7e8;
 $body-font-color: #4e4e4e;
-$body-font-family: "Open Sans", "Helvetica", Helvetica, Arial, sans-serif;
+$body-font-family: "Lato", "Helvetica", Helvetica, Arial, sans-serif;
 // $font-weight-normal:normal;
 // $body-font-weight: $font-weight-normal;
 // $body-font-style: normal;
@@ -178,7 +178,7 @@ $border-color: #c2c2c2;
 // $include-html-type-classes: $include-html-classes;
 
 // We use these to control header font styles
-// $header-font-family: $body-font-family;
+$header-font-family: 'Open Sans';
 $header-font-weight: bold;
 // $header-font-style: normal;
 $header-font-color: $body-font-color;
