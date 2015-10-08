@@ -55,6 +55,10 @@ If you want to watch for changes in sass files, run `compass watch` in a separat
 ## Build using Docker
 
 Just run `docker build .` and everything should be build automatically.
+To view synnefo.org in your browser:
+```
+$  docker run -p <your-port>:4000 <docker-image-id>
+```
 
 ## Output files
 

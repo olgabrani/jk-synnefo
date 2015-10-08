@@ -8,3 +8,6 @@ WORKDIR /src
 RUN compass compile static --output=compressed
 
 CMD ["jekyll", "serve", "-H", "0.0.0.0"]
+
+# docker build .
+# docker run -p 4001:4000 image_id
