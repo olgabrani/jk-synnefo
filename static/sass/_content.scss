@@ -160,6 +160,13 @@ h1 {
     margin-top: 8px;
 }
 
+.button.fixed-w {
+    min-width: 90%;
+    @media #{$medium-up} {
+        min-width: 30%;
+    }
+}
+
 .button:hover {
     text-decoration:none;
 }
