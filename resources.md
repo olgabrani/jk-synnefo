@@ -77,6 +77,13 @@ permalink: /resources/
         <p>Code repository<br><a href="https://github.com/grnet/synnefo">https://github.com/grnet/synnefo</a></p>
         <p>Debian packages apt repository <br><a href="http://apt.dev.grnet.gr">http://apt.dev.grnet.gr</a></p>
         <p>CentOS packages yum repository <br><a href="http://yum.dev.grnet.gr">http://yum.dev.grnet.gr</a></p>
+    </div>
+</div>
+<div class="row">
+    <div class="columns small-3 text-center">
+        <i class="fa fa-wrench fa-3x"></i>
+    </div>
+    <div class="columns small-9">
         <h2>Tools</h2>
         <p><a href="{{ '/agkyra/' | prepend: site.baseurl }}">Agkyra syncing client</a></p>
     </div>

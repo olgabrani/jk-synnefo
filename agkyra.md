@@ -2,14 +2,13 @@
 layout: page
 title: Agkyra
 permalink: /agkyra/
-extraCls: x-wide
 ---
 
-<div class="clearfix">
-    <div class="lt">
+<div class="row">
+    <div class="columns medium-2 text-center">
         <img src="/assets/agkyra-logo.png">
     </div>
-    <div class="rt">
+    <div class="columns medium-10">
         <h2>General</h2>
 
         <p>Agkyra is a syncing client for Pithos Storage. <br>It is a multi-platform,
