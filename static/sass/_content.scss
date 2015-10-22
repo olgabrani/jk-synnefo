@@ -174,23 +174,6 @@ h1 {
 
 .relative { position:relative;}
 
-.lt {
-    float: left;
-    width: $central-icons-lt;
-    text-align: center;
-    padding-top:0.5em;
-    @media #{$small-only} {
-        float:none;
-        width:auto;
-        margin-bottom:1em;
-    }
-}
-
-.rt {
-    overflow: hidden;
-}
-
-
 .central-icons iframe,
 .central iframe { 
     margin-bottom:0.5em;
@@ -375,30 +358,4 @@ header {
 
     }
 
-}
-
-.usecases {
-    ul {
-        li {
-            list-style: none outside none;
-            margin-bottom: 3em;
-            h2 {
-                margin-bottom: 1em;
-            }
-            .img-wrap {
-                text-align: center;
-            }
-            img {
-                margin: 0 0 1em;
-                @media #{$medium-up} { 
-                    margin: 0 1em 1em 0;
-                    max-width: 30%;
-                    float: left;
-                }
-            }
-            p {
-                font-size: emCalc(14px);
-            }
-        }
-    }
 }

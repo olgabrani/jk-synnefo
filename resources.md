@@ -2,14 +2,13 @@
 layout: page
 title: Resources
 permalink: /resources/
-layoutCls: x-wide
 ---
 
-<div class="clearfix">
-    <div class="lt">
-        <img src="{{ '/assets/docs.png' | prepend: site.baseurl }}" alt="Synnefo documentation">
+<div class="row">
+    <div class="columns small-3 text-center">
+        <i class="fa fa-file-text-o fa-3x"></i>
     </div>
-    <div class="rt">
+    <div class="columns small-9">
         <h2>General Documentation</h2>
         <p>Synnefo design, architecture, components <br>
             <a href="http://www.synnefo.org/docs/synnefo/latest/index.html">Latest documentation (0.16)</a><br>
@@ -17,6 +16,13 @@ layoutCls: x-wide
             <a href="https://www.synnefo.org/docs/synnefo/0.14/">0.14 documentation</a><br>
             <a href="https://www.synnefo.org/docs/synnefo/0.13/">0.13 documentation</a><br>
         </p>
+    </div>
+</div>
+<div class="row">
+    <div class="columns small-3 text-center">
+        <i class="fa fa-life-ring fa-3x"></i>
+    </div>
+    <div class="columns small-9">
         <h2>Synnefo Guides </h2>
         <p>Installation, Administrator's Guide, Developer's Guide<br>
             <a href="http://www.synnefo.org/docs/synnefo/latest/index.html#synnefo-guides">Latest guides (0.16)</a><br>
@@ -30,13 +36,11 @@ layoutCls: x-wide
     </div>
 </div>
 
-
-
-<div class="clearfix">
-    <div class="lt">
-        <img src="{{ '/assets/presentation.png' | prepend: site.baseurl }}" alt="Synnefo presentations">
+<div class="row">
+    <div class="columns small-3 text-center">
+        <i class="fa fa-line-chart fa-3x"></i>
     </div>
-    <div class="rt">
+    <div class="columns small-9">
         <h2>Presentations</h2>
         <p>Google GanetiCon 2014<br> Synnefo: An introduction and update
             <br><a href="https://pithos.okeanos.grnet.gr/public/Si3JNhVoUQJcIdT2biwCc3" class="button download" title="Google GanetiCon 2014 presenatation">download </a>
@@ -64,11 +68,11 @@ layoutCls: x-wide
         </p>
     </div>
 </div>
-<div class="clearfix">
-    <div class="lt">
-        <img src="{{ '/assets/code.png' | prepend: site.baseurl }}" alt="code" width="41" height="54">
+<div class="row">
+    <div class="columns small-3 text-center">
+        <i class="fa fa-file-code-o fa-3x"></i>
     </div>
-    <div class="rt">
+    <div class="columns small-9">
         <h2>Code</h2>
         <p>Code repository<br><a href="https://github.com/grnet/synnefo">https://github.com/grnet/synnefo</a></p>
         <p>Debian packages apt repository <br><a href="http://apt.dev.grnet.gr">http://apt.dev.grnet.gr</a></p>

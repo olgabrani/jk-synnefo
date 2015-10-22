@@ -2,7 +2,6 @@
 layout: page
 title: Features
 permalink: /user-features/
-layoutCls: x-wide
 parent: /screenshots/
 subnav:
     - title: Screenshots
@@ -15,27 +14,27 @@ subnav:
       url: '/backend-features/'
 ---
 
-<div class="clearfix">
-    <div class="lt">
+<div class="row">
+    <div class="columns medium-2 text-center">
         <img src="{{ '/assets/icon-compute.png' | prepend: site.baseurl}}" alt="">
     </div>
-    <div class="rt">
+    <div class="columns medium-10">
         <h2>Compute Service</h2>
         <ul>
-        <li>Support for all major Windows Server and Linux distributions</li>
-        <li>Spawning VMs from custom Images</li>
-        <li>Dynamic file injection upon creation</li>
-        <li>CPU and Network statistics per VM</li>
-        <li>Easy and secure out-of-band access through the Web UI</li>
-        <li>Programmatic access via the OpenStack Compute API</li>
+            <li>Support for all major Windows Server and Linux distributions</li>
+            <li>Spawning VMs from custom Images</li>
+            <li>Dynamic file injection upon creation</li>
+            <li>CPU and Network statistics per VM</li>
+            <li>Easy and secure out-of-band access through the Web UI</li>
+            <li>Programmatic access via the OpenStack Compute API</li>
         </ul>
     </div>
 </div>
-<div class="clearfix">
-    <div class="lt">
+<div class="row">
+    <div class="columns medium-2 text-center">
         <img src="{{ '/assets/icon-network.png' | prepend: site.baseurl }}" alt="">
     </div>
-    <div class="rt">
+    <div class="columns medium-10">
         <h2>Network Service</h2>
         <ul>
             <li>Public networking with full IPv4/IPv6 support</li>
@@ -45,11 +44,11 @@ subnav:
         </ul>
     </div>
 </div>
-<div class="clearfix">
-    <div class="lt">
+<div class="row">
+    <div class="columns medium-2 text-center">
         <img src="{{ '/assets/icon-storage.png' | prepend: site.baseurl }}" alt="">
     </div>
-    <div class="rt">
+    <div class="columns medium-10">
         <h2>Storage Service</h2>
         <ul>
             <li>Sharing between users and groups</li>
@@ -58,11 +57,11 @@ subnav:
         </ul>
     </div>
 </div>
-<div class="clearfix">
-    <div class="lt">
+<div class="row">
+    <div class="columns medium-2 text-center">
         <img src="{{ '/assets/icon-image.png' | prepend: site.baseurl }}" alt="">
     </div>
-    <div class="rt">
+    <div class="columns medium-10">
 
         <h2>Image Service</h2>
         <ul class="disc">
@@ -74,11 +73,11 @@ subnav:
         </ul>
     </div>
 </div>
-<div class="clearfix">
-    <div class="lt">
+<div class="row">
+    <div class="columns medium-2">
         <img src="{{ '/assets/icon-identity.png' | prepend: site.baseurl }}" alt="">
     </div>
-    <div class="rt">
+    <div class="columns medium-10">
 
         <h2>Identity Service</h2>
         <ul class="disc">

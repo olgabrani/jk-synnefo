@@ -2,7 +2,6 @@
 layout: page
 title: Features
 permalink: /backend-features/
-layoutCls: x-wide
 parent: /screenshots/
 subnav:
     - title: Screenshots
@@ -16,11 +15,11 @@ subnav:
 
 ---
 
-<div class="clearfix">
-    <div class="lt">
+<div class="row">
+    <div class="columns medium-2 text-center">
         <img src="{{ '/assets/icon-compute.png' | prepend: site.baseurl }}" alt="">
     </div>
-    <div class="rt">
+    <div class="columns medium-10">
         <h2>Compute Service</h2>
         <ul class="disc">
             <li>Synnefo manages multiple Ganeti clusters in the backend</li>
@@ -32,11 +31,11 @@ subnav:
         </ul>
     </div>
 </div>
-<div class="clearfix">
-    <div class="lt">
+<div class="row">
+    <div class="columns medium-2 text-center">
         <img src="{{ '/assets/icon-network.png' | prepend: site.baseurl }}" alt="">
     </div>
-    <div class="rt">
+    <div class="columns medium-10">
         <h2>Network Service</h2>
         <ul class="disc">
             <li>Full IPv4/IPv6 support for Public and Private networks</li>
@@ -45,11 +44,11 @@ subnav:
         </ul>
     </div>
 </div>
-<div class="clearfix">
-    <div class="lt">
+<div class="row">
+    <div class="columns medium-2 text-center">
         <img src="{{ '/assets/icon-storage.png' | prepend: site.baseurl }}" alt="">
     </div>
-    <div class="rt">
+    <div class="columns medium-10">
         <h2>Storage Service</h2>
         <ul class="disc">
             <li>Files are collections of blocks</li>
@@ -59,11 +58,11 @@ subnav:
         </ul>
     </div>
 </div>
-<div class="clearfix">
-    <div class="lt">
+<div class="row">
+    <div class="columns medium-2 text-center">
         <img src="{{ '/assets/icon-image.png' | prepend: site.baseurl }}" alt="">
     </div>
-    <div class="rt">
+    <div class="columns medium-10">
 
         <h2>Image Service</h2>
         <ul class="disc">
