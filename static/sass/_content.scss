@@ -153,6 +153,7 @@ h1 {
     background-repeat: no-repeat;
     background-position:10px center;
     padding-left: 30px;
+    text-align: left;
 }
 
 
@@ -161,9 +162,9 @@ h1 {
 }
 
 .button.fixed-w {
-    min-width: 90%;
+    min-width: 70%;
     @media #{$medium-up} {
-        min-width: 30%;
+        min-width: 40%;
     }
 }
 
