@@ -43,6 +43,14 @@
                         width: auto;
                         margin: 0 5px;
                     }
+                    &:hover {
+                        a {
+                            color: inherit;
+                            &:hover {
+                                color: $anchor-font-color;
+                            }
+                        }
+                    }
                 }
             }
             .high, .high:hover {

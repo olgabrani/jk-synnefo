@@ -94,35 +94,7 @@ h1 {
             font-size: $h2-font-size;
         }
     }
-     
-         
 }  
-
-.icon-twitter span { 
-    @include sprite('../images/twitter-on.svg', 20px, 18px);
-    background-size: 20px 18px;
-}
-.icon-twitter:hover span {
-    background-image:url(../images/twitter-off.svg);
-}
-.icon-google span{ 
-    @include sprite('../images/google-on.svg', 12px, 19px);
-    background-size: 12px 19px;
-} 
-
-.icon-google:hover span {
-    background-image:url(../images/google-off.svg);
-}
-
-.icon-github span{ 
-    @include sprite('../images/github-on.svg', 20px, 20px);
-    background-size: 20px 20px;
-} 
-
-.icon-github:hover span {
-    background-image:url(../images/github-off.svg);
-}
-
 
 .back-btn {
     @include sprite('../images/close.svg', 45px, 45px);
@@ -355,7 +327,10 @@ header {
         ul {
             margin: 0 0 0 0.5em;
         }
-
     }
 
+}
+
+.rss {
+    color: #FE9D0E !important;
 }
