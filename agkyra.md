@@ -39,17 +39,17 @@ permalink: /agkyra/
         </a>
         <br>
         <a class="button download fixed-w" 
-           title="agkyra-0.1rc1-osx64.zip"
-           href="https://pithos.okeanos.grnet.gr/public/sA4IZJxP4oUhJhKEs0hXJ7"
+           title="agkyra-0.1rc3-osx64.zip"
+           href="https://pithos.okeanos.grnet.gr/public/oCEK37wRncUZBPc43KPer1"
            download>
-            Agkyra 0.1rc1 for Mac OS X 64bit
+            Agkyra 0.1rc3 for Mac OS X 64bit
         </a>
         <br>
         <a class="button download fixed-w" 
-           title="agkyra-0.1rc1-linux32.tar.gz" 
-           href="https://pithos.okeanos.grnet.gr/public/rY2slN98uI6UH07zUX50o4" 
+           title="agkyra-0.1rc2-linux32.tar.gz" 
+           href="https://pithos.okeanos.grnet.gr/public/W9UUOAI29P1I6AbmRQ6DH4" 
            download>
-           Agkyra 0.1rc1 for Linux 32bit
+           Agkyra 0.1rc2 for Linux 32bit
         </a>
         <br>
         <h2>Documentation</h2>
