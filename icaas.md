@@ -20,18 +20,27 @@ service: ICaaS
         VMs that have a great variety of freely available, high quality, open 
         source web applications pre-installed.</p>
         <p>The service is developed in <a href="https://www.python.org/">Python</a> using the
-        <a href="https://flask.pocoo.org">Flask </a> microframework.</p>
+        <a href="http://flask.pocoo.org/">Flask </a> microframework.</p>
         <h2>Downloads</h2>
 
-        <p>You can download {{ page.service }}  for Linux</p>
+        <p>You can download {{ page.service }}  for Windows and Linux platforms:</p>
 
         <a class="button download fixed-w" 
-           title="agkyra-0.1rc2-win64.zip" 
+           title="linux64" 
            href="https://pithos.okeanos.grnet.gr/public/YO7zbSF9Se1BKbDl2wLuX3" 
            download>
-           {{ page.service }} for linux64 latest version
+           {{ page.service }} for Linux 64bit
         </a>
         <br>
+
+        <a class="button download fixed-w" 
+           title="windows64" 
+           href="https://pithos.okeanos.grnet.gr/public/R3RQUMgxL3F5P4rlpWFlE" 
+           download>
+           {{ page.service }} for Windows 64bit
+        </a>
+        <br>
+
         <h2>Documentation</h2>
 
         <p><a href="https://www.synnefo.org/docs/icaas/latest">{{ page.service }} docs</a>
