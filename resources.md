@@ -85,8 +85,11 @@ permalink: /resources/
     </div>
     <div class="columns small-9">
         <h2>Tools</h2>
-        <p><a href="{{ '/agkyra/' | prepend: site.baseurl }}">Agkyra syncing client</a></p>
-        <p><a href="{{ '/icaas/' | prepend: site.baseurl }}">ICaaS service</a></p>
+        <p>
+            <a href="{{ '/agkyra/' | prepend: site.baseurl }}">Agkyra syncing client</a><br>
+            <a href="{{ '/icaas/' | prepend: site.baseurl }}">ICaaS service</a><br>
+            <a href="{{ '/baas/' | prepend: site.baseurl }}">BaaS service</a><br>
+        </p>
     </div>
 </div>
 
