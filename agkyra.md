@@ -25,31 +25,24 @@ permalink: /agkyra/
         <p>You can download Agkyra for Linux, Windows and Mac OS X platforms</p>
 
         <a class="button download fixed-w" 
-           title="agkyra-0.1rc3-win64.zip" 
-           href="https://pithos.okeanos.grnet.gr/public/7ei4Fc7NwSIh5OSN62VQ62" 
+           title="agkyra-0.1rc4-win64.zip" 
+           href="https://pithos.okeanos.grnet.gr/public/FYHNZw4wbeuJwGZ4Bva4E6" 
            download>
-           Agkyra 0.1rc3 for Windows 64bit
+           Agkyra 0.1rc4 for Windows 64bit
         </a>
         <br>
         <a class="button download fixed-w" 
-           title="agkyra-0.1rc3-linux64.tar.gz" 
-           href="https://pithos.okeanos.grnet.gr/public/zUsLaR26n0E7DnSW6EO6J7" 
+           title="agkyra-0.1rc4-linux64.tar.gz" 
+           href="https://pithos.okeanos.grnet.gr/public/6SgtOcgy3UaeHmDSXsOc34" 
            download>
-           Agkyra 0.1rc3 for Linux 64bit
+           Agkyra 0.1rc4 for Linux 64bit
         </a>
         <br>
         <a class="button download fixed-w" 
-           title="agkyra-0.1rc3-osx64.zip"
-           href="https://pithos.okeanos.grnet.gr/public/oCEK37wRncUZBPc43KPer1"
+           title="agkyra-0.1rc4-osx64.zip"
+           href="https://pithos.okeanos.grnet.gr/public/xRG01dyCzcqWGsQ2Uo9d76"
            download>
-            Agkyra 0.1rc3 for Mac OS X 64bit
-        </a>
-        <br>
-        <a class="button download fixed-w" 
-           title="agkyra-0.1rc2-linux32.tar.gz" 
-           href="https://pithos.okeanos.grnet.gr/public/W9UUOAI29P1I6AbmRQ6DH4" 
-           download>
-           Agkyra 0.1rc2 for Linux 32bit
+            Agkyra 0.1rc4 for Mac OS X 64bit
         </a>
         <br>
         <h2>Documentation</h2>
