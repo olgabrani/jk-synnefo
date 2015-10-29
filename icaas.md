@@ -7,7 +7,7 @@ service: ICaaS
 
 <div class="row">
     <div class="columns medium-2 text-center">
-        <img src="/assets/icaas.png">
+        <img src="{{ '/assets/icaas.png' | prepend: site.baseurl }}">
     </div>
     <div class="columns medium-10">
         <h2>General</h2>

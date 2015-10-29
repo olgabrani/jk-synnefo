@@ -7,7 +7,7 @@ service: BaaS
 
 <div class="row">
     <div class="columns medium-2 text-center">
-        <img src="/assets/baas.png">
+        <img src="{{ '/assets/baas.png' | prepend: site.baseurl }}">
     </div>
     <div class="columns medium-10">
         <h2>General</h2>

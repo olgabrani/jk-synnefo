@@ -6,7 +6,7 @@ permalink: /agkyra/
 
 <div class="row">
     <div class="columns medium-2 text-center">
-        <img src="/assets/agkyra-logo.png">
+        <img src="{{ '/assets/agkyra-logo.png' | prepend: site.baseurl }}">
     </div>
     <div class="columns medium-10">
         <h2>General</h2>
