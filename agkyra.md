@@ -48,5 +48,8 @@ permalink: /agkyra/
         <h2>Documentation</h2>
 
         <p><a href="https://www.synnefo.org/docs/agkyra/latest">Agkyra docs</a>
+        
+        <h2>Contact</h2>
+        <p><a href="mailto:agkyra@googlegroups.com">agkyra@googlegroups.com</a></p>
     </div>
 </div>
