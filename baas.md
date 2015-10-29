@@ -20,18 +20,31 @@ service: BaaS
         <p>You can download {{ page.service }} for BaaS for Linux, Windows and Mac OS X platforms</p>
 
         <a class="button download fixed-w" 
+           title="windows64" 
+           href="https://pithos.okeanos.grnet.gr/public/rciylizFmNOfe8XCfd26U6" 
+           download>
+           {{ page.service }} for Windows 64bit
+        </a>
+        <br>
+        <a class="button download fixed-w" 
            title="linux64" 
-           href="https://pithos.okeanos.grnet.gr/public/YO7zbSF9Se1BKbDl2wLuX3" 
+           href="https://pithos.okeanos.grnet.gr/public/uKBNVn3UPpZ4lEBbVixMC1" 
            download>
            {{ page.service }} for Linux 64bit
         </a>
         <br>
-
+        <a class="button download fixed-w"
+           title="linux32" 
+           href="https://pithos.okeanos.grnet.gr/public/zzjPTLI0YrY3GQjWFq3FW5" 
+           download>
+           {{ page.service }} for Linux 32bit
+        </a>
+        <br>
         <a class="button download fixed-w" 
            title="windows64" 
-           href="https://pithos.okeanos.grnet.gr/public/R3RQUMgxL3F5P4rlpWFlE" 
+           href="https://pithos.okeanos.grnet.gr/public/6XjxdndahvFAZJ67rlC1S" 
            download>
-           {{ page.service }} for Windows 64bit
+           {{ page.service }} for Mac OS X 64bit
         </a>
         <br>
 
