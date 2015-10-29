@@ -25,17 +25,17 @@ permalink: /agkyra/
         <p>You can download Agkyra for Linux, Windows and Mac OS X platforms</p>
 
         <a class="button download fixed-w" 
-           title="agkyra-0.1rc2-win64.zip" 
-           href="https://pithos.okeanos.grnet.gr/public/CfekntbsGeh5jEZ3pr8Hm1" 
+           title="agkyra-0.1rc3-win64.zip" 
+           href="https://pithos.okeanos.grnet.gr/public/7ei4Fc7NwSIh5OSN62VQ62" 
            download>
-           Agkyra 0.1rc2 for Windows 64bit
+           Agkyra 0.1rc3 for Windows 64bit
         </a>
         <br>
         <a class="button download fixed-w" 
-           title="agkyra-0.1rc2-linux64.tar.gz" 
-           href="https://pithos.okeanos.grnet.gr/public/FiIc3j0E7oOcmsdBTQyS95" 
+           title="agkyra-0.1rc3-linux64.tar.gz" 
+           href="https://pithos.okeanos.grnet.gr/public/zUsLaR26n0E7DnSW6EO6J7" 
            download>
-           Agkyra 0.1rc2 for Linux 64bit
+           Agkyra 0.1rc3 for Linux 64bit
         </a>
         <br>
         <a class="button download fixed-w" 
