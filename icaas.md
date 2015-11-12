@@ -21,6 +21,10 @@ service: ICaaS
         source web applications pre-installed.</p>
         <p>The service is developed in <a href="https://www.python.org/">Python</a> using the
         <a href="http://flask.pocoo.org/">Flask</a> microframework.</p>
+        <h2>Documentation</h2>
+
+        <p><a href="https://www.synnefo.org/docs/icaas/latest">Official {{ page.service }} documentation</a></p>
+
         <h2>Downloads</h2>
 
         <p>You can download the {{ page.service }} client for Windows and Linux platforms:</p>
@@ -41,8 +45,5 @@ service: ICaaS
         </a>
         <br>
 
-        <h2>Documentation</h2>
-
-        <p><a href="https://www.synnefo.org/docs/icaas/latest">Official {{ page.service }} documentation</a>
     </div>
 </div>
