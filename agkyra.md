@@ -11,7 +11,7 @@ permalink: /agkyra/
     <div class="columns medium-10">
         <h2>General</h2>
 
-        <p>Agkyra is a syncing client for Pithos Storage. <br>It is a multi-platform,
+        <p>Agkyra is a file syncing client for Pithos Storage. <br>It is a multi-platform,
         stand-alone, end-user application. It synchronizes the contents of local user
         directories with remote Pithos containers through a
         <strong>Graphical User Interface (GUI)</strong> as well as a <strong>Command Line Interface (CLI)</strong>.</p>
@@ -26,27 +26,27 @@ permalink: /agkyra/
 
         <h2>Downloads</h2>
 
-        <p>You can download Agkyra for Linux, Windows and Mac OS X platforms</p>
+        <p>You can download Agkyra (version 0.1) for Linux, Windows and Mac OS X platforms</p>
 
         <a class="button download fixed-w" 
-           title="agkyra-0.1rc5-win64.zip"
-           href="https://pithos.okeanos.grnet.gr/public/zuiupPSxzlvH5Y5NVojHs3" 
+           title="agkyra-latest-win64.zip"
+           href="https://cdn.synnefo.org/agkyra-latest-win64.zip"
            download>
-           Agkyra 0.1rc5 for Windows 64bit
+           Agkyra for Windows 64bit
         </a>
         <br>
         <a class="button download fixed-w" 
-           title="agkyra-0.1rc5-linux64.tar.gz"
-           href="https://pithos.okeanos.grnet.gr/public/KkJ3d3vzdtpoegjrWrwu23" 
+           title="agkyra-latest-linux64.tar.gz"
+           href="https://cdn.synnefo.org/agkyra-latest-linux64.tar.gz"
            download>
-           Agkyra 0.1rc5 for Linux 64bit
+           Agkyra for Linux 64bit
         </a>
         <br>
         <a class="button download fixed-w" 
-           title="agkyra-0.1rc5-osx64.zip"
-           href="https://pithos.okeanos.grnet.gr/public/vwEhC5L0s6mXVMezHqqnV4"
+           title="agkyra-latest-osx64.zip"
+           href="https://cdn.synnefo.org/agkyra-latest-osx64.zip"
            download>
-            Agkyra 0.1rc5 for Mac OS X 64bit
+            Agkyra for Mac OS X 64bit
         </a>
         <br>
 
