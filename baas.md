@@ -3,6 +3,7 @@ layout: page
 title: BaaS
 permalink: /baas/
 service: BaaS
+version: 0.1.0-rc1
 ---
 
 <div class="row">
@@ -22,7 +23,7 @@ service: BaaS
         
         <h2>Downloads</h2>
 
-        <p>You can download {{ page.service }} for BaaS for Linux, Windows and Mac OS X platforms</p>
+        <p>You can download {{ page.service }} (version {{ page.version }}) for Linux, Windows and Mac OS X platforms</p>
 
         <a class="button download fixed-w" 
            title="windows64" 
