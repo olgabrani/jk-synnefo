@@ -36,6 +36,13 @@ permalink: /agkyra/
         </a>
         <br>
         <a class="button download fixed-w" 
+           title="agkyra-latest-win32.zip"
+           href="https://cdn.synnefo.org/agkyra-latest-win32.zip"
+           download>
+           Agkyra for Windows 32bit
+        </a>
+        <br>
+        <a class="button download fixed-w" 
            title="agkyra-latest-linux64.tar.gz"
            href="https://cdn.synnefo.org/agkyra-latest-linux64.tar.gz"
            download>
