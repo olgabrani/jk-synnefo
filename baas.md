@@ -3,7 +3,7 @@ layout: page
 title: BaaS
 permalink: /baas/
 service: BaaS
-version: 0.1.0-rc1
+version: 0.1.0-rc1-1
 ---
 
 <div class="row">
