@@ -11,7 +11,8 @@ permalink: /resources/
     <div class="columns small-9">
         <h2>General Documentation</h2>
         <p>Synnefo design, architecture, components <br>
-            <a href="http://www.synnefo.org/docs/synnefo/latest/index.html">Latest documentation (0.16)</a><br>
+            <a href="http://www.synnefo.org/docs/synnefo/latest/index.html">Latest documentation (0.17)</a><br>
+            <a href="https://www.synnefo.org/docs/synnefo/0.16/">0.16 documentation </a><br>
             <a href="https://www.synnefo.org/docs/synnefo/0.15/">0.15 documentation </a><br>
             <a href="https://www.synnefo.org/docs/synnefo/0.14/">0.14 documentation</a><br>
             <a href="https://www.synnefo.org/docs/synnefo/0.13/">0.13 documentation</a><br>
