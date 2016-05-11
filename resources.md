@@ -26,7 +26,8 @@ permalink: /resources/
     <div class="columns small-9">
         <h2>Synnefo Guides </h2>
         <p>Installation, Administrator's Guide, Developer's Guide<br>
-            <a href="http://www.synnefo.org/docs/synnefo/latest/index.html#synnefo-guides">Latest guides (0.16)</a><br>
+            <a href="http://www.synnefo.org/docs/synnefo/latest/index.html#synnefo-guides">Latest guides (0.17)</a><br>
+            <a href="http://www.synnefo.org/docs/synnefo/0.16/index.html#synnefo-guides">0.16 guides </a><br>
             <a href="http://www.synnefo.org/docs/synnefo/0.15/index.html#synnefo-guides">0.15 guides </a><br>
             <a href="http://www.synnefo.org/docs/synnefo/0.14/index.html#synnefo-guides">0.14 guides</a><br>
             <a href="http://www.synnefo.org/docs/synnefo/0.13/index.html#synnefo-guides">0.13 guides</a><br>
