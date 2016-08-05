@@ -12,6 +12,14 @@ subnav:
 
 ---
 
+## Apr 2016
+Synnefo v0.17 released with major new features: new pithos UI web application, cyclades support for detachable volumes, shared resources among members of a project, support for LDAP authentication.
+
+## Jul 2015
+Synnefo v0.16.2 released with several UI improvements and bug fixes. 
+
+## Feb 2015 
+Synnefo v0.16.1 gets released. This release is targeted towards stability including various bug fixes and improvements.
 
 ## Nov 2014
 Synnefo v0.16 gets released, with a lot of new features. Support for multiple
