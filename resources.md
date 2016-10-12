@@ -11,10 +11,11 @@ permalink: /resources/
     <div class="columns small-9">
         <h2>General Documentation</h2>
         <p>Synnefo design, architecture, components <br>
-            <a href="http://www.synnefo.org/docs/synnefo/latest/index.html">Latest documentation (0.17)</a><br>
-            <a href="https://www.synnefo.org/docs/synnefo/0.16/">0.16 documentation </a><br>
-            <a href="https://www.synnefo.org/docs/synnefo/0.15/">0.15 documentation </a><br>
-            <a href="https://www.synnefo.org/docs/synnefo/0.14/">0.14 documentation</a><br>
+            <a href="https://www.synnefo.org/docs/synnefo/latest/">Latest documentation (0.18.1)</a><br>
+            <a href="https://www.synnefo.org/docs/synnefo/0.17/">0.17 documentation</a><br>
+            <a href="https://www.synnefo.org/docs/synnefo/0.16.2/">0.16.2 documentation</a><br>
+            <a href="https://www.synnefo.org/docs/synnefo/0.15.2/">0.15.2 documentation</a><br>
+            <a href="https://www.synnefo.org/docs/synnefo/0.14.10/">0.14.10 documentation</a><br>
             <a href="https://www.synnefo.org/docs/synnefo/0.13/">0.13 documentation</a><br>
         </p>
     </div>
@@ -26,10 +27,11 @@ permalink: /resources/
     <div class="columns small-9">
         <h2>Synnefo Guides </h2>
         <p>Installation, Administrator's Guide, Developer's Guide<br>
-            <a href="http://www.synnefo.org/docs/synnefo/latest/index.html#synnefo-guides">Latest guides (0.17)</a><br>
-            <a href="http://www.synnefo.org/docs/synnefo/0.16/index.html#synnefo-guides">0.16 guides </a><br>
-            <a href="http://www.synnefo.org/docs/synnefo/0.15/index.html#synnefo-guides">0.15 guides </a><br>
-            <a href="http://www.synnefo.org/docs/synnefo/0.14/index.html#synnefo-guides">0.14 guides</a><br>
+            <a href="http://www.synnefo.org/docs/synnefo/latest/index.html#synnefo-guides">Latest guides (0.18.1)</a><br>
+            <a href="http://www.synnefo.org/docs/synnefo/0.17/index.html#synnefo-guides">0.17 guides</a><br>
+            <a href="http://www.synnefo.org/docs/synnefo/0.16.2/index.html#synnefo-guides">0.16.2 guides</a><br>
+            <a href="http://www.synnefo.org/docs/synnefo/0.15.2/index.html#synnefo-guides">0.15.2 guides</a><br>
+            <a href="http://www.synnefo.org/docs/synnefo/0.14.10/index.html#synnefo-guides">0.14.10 guides</a><br>
             <a href="http://www.synnefo.org/docs/synnefo/0.13/index.html#synnefo-guides">0.13 guides</a><br>
         </p>
 
