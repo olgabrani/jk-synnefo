@@ -11,6 +11,11 @@ subnav:
 
 
 ---
+ 
+ 
+## Oct 2016
+ Synnefo v0.18.1 released with many new features. Modifying user e-mails from the admin panel, Sentry, multiple eventd instances and automatic ganeti master failover detection are now supported. This release includes several improvements on project management and quota policy enforcement, performance optimizations of pithos object listing queries and various admin panel enhancements.
+ 
 
 ## Apr 2016
 Synnefo v0.17 released with major new features: new pithos UI web application, cyclades support for detachable volumes, shared resources among members of a project, support for LDAP authentication.
