@@ -19,6 +19,3 @@ layoutCls: centered
 ## IRC
 #synnefo on [FreeNode](http://freenode.net)  
 ([Connect directly from inside your web browser](https://kiwiirc.com/client/chat.freenode.net/synnefo))
-
-## FAQ
-[Free trial FAQ]({{ '/faq/' | prepend: site.baseurl }})

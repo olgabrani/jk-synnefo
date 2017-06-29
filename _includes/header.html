@@ -18,16 +18,11 @@
                             <a href="{{ p.url | prepend: site.baseurl }}">{{ p.title }}</a>
                         </li>
                     {% endfor %}
-                    {% if page.social %}
                     <li class="social">
                         <a href="https://twitter.com/{{ site.twitter_username }}" target="_blank" title="Follow Synnefo on twitter"><i class="fa fa-twitter fa-fw fa-lg"></i></a>
                         <a href="https://plus.google.com/{{ site.google_id }}" target="_blank" title="Synnefo on Google+"><i class="fa fa-google-plus fa-fw"></i></a>
                         <a href="https://github.com/{{ site.github_repo }}" target="_blank" title="Fork Synnefo on Github"><i class="fa fa-github fa-fw fa-lg"></i></a>
                     </li>
-                    {% else %}
-
-                    <li  class="high" ><a href="https://accounts.demo.synnefo.org/ui/login" target="_blank">Try it out</a></li>
-                    {% endif %}
                 </ul>
             </section>
     	</nav>
