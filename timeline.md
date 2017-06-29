@@ -11,8 +11,13 @@ subnav:
 
 
 ---
- 
- 
+
+## Jun 2017
+Synnefo v0.19 released, being the first version to support Debian Jessie.
+This release includes several improvements on OpenStack compatibility, VM
+allocation policy and IP usage history. Support for the keypairs API for ssh
+key management is also added.
+
 ## Oct 2016
  Synnefo v0.18.1 released with many new features. Modifying user e-mails from the admin panel, Sentry, multiple eventd instances and automatic ganeti master failover detection are now supported. This release includes several improvements on project management and quota policy enforcement, performance optimizations of pithos object listing queries and various admin panel enhancements.
  
