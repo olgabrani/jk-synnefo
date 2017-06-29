@@ -11,7 +11,8 @@ permalink: /resources/
     <div class="columns small-9">
         <h2>General Documentation</h2>
         <p>Synnefo design, architecture, components <br>
-            <a href="https://www.synnefo.org/docs/synnefo/latest/">Latest documentation (0.18.1)</a><br>
+            <a href="https://www.synnefo.org/docs/synnefo/latest/">Latest documentation (0.19)</a><br>
+            <a href="https://www.synnefo.org/docs/synnefo/0.18.1/">0.18.1 documentation</a><br>
             <a href="https://www.synnefo.org/docs/synnefo/0.17/">0.17 documentation</a><br>
             <a href="https://www.synnefo.org/docs/synnefo/0.16.2/">0.16.2 documentation</a><br>
             <a href="https://www.synnefo.org/docs/synnefo/0.15.2/">0.15.2 documentation</a><br>
@@ -27,7 +28,8 @@ permalink: /resources/
     <div class="columns small-9">
         <h2>Synnefo Guides </h2>
         <p>Installation, Administrator's Guide, Developer's Guide<br>
-            <a href="http://www.synnefo.org/docs/synnefo/latest/index.html#synnefo-guides">Latest guides (0.18.1)</a><br>
+            <a href="http://www.synnefo.org/docs/synnefo/latest/index.html#synnefo-guides">Latest guides (0.19)</a><br>
+            <a href="http://www.synnefo.org/docs/synnefo/0.18.1/index.html#synnefo-guides">0.18.1 guides</a><br>
             <a href="http://www.synnefo.org/docs/synnefo/0.17/index.html#synnefo-guides">0.17 guides</a><br>
             <a href="http://www.synnefo.org/docs/synnefo/0.16.2/index.html#synnefo-guides">0.16.2 guides</a><br>
             <a href="http://www.synnefo.org/docs/synnefo/0.15.2/index.html#synnefo-guides">0.15.2 guides</a><br>
